@@ -8,7 +8,7 @@ on:
 jobs:
   ipa:
     name: Build unsigned IPA
-    runs-on: macos-14
+    runs-on: macos-latest
     timeout-minutes: 25
 
     steps:
@@ -20,6 +20,7 @@ jobs:
           if [ -d /Applications/Xcode_15.4.app ]; then
             sudo xcode-select -s /Applications/Xcode_15.4.app
           fi
+          ls /Applications | grep -i '^Xcode' || true
           xcodebuild -version
           xcrun --sdk iphoneos --show-sdk-version
 
