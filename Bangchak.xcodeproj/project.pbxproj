@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000010000000000000000 /* BangchakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000010000000000000000 /* BangchakApp.swift */; };
+		B10000020000000000000000 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000020000000000000000 /* RootView.swift */; };
+		B10000030000000000000000 /* FileWalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000030000000000000000 /* FileWalker.swift */; };
+		B10000040000000000000000 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000040000000000000000 /* Models.swift */; };
+		B10000050000000000000000 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000050000000000000000 /* Preferences.swift */; };
+		B10000060000000000000000 /* ScanTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000060000000000000000 /* ScanTarget.swift */; };
+		B10000070000000000000000 /* SizeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000070000000000000000 /* SizeFormat.swift */; };
+		B10000080000000000000000 /* StorageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000080000000000000000 /* StorageEngine.swift */; };
+		B10000090000000000000000 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000090000000000000000 /* Components.swift */; };
+		B10000100000000000000000 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000100000000000000000 /* Theme.swift */; };
+		B10000110000000000000000 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000110000000000000000 /* BrowseView.swift */; };
+		B10000120000000000000000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000120000000000000000 /* DashboardView.swift */; };
+		B10000130000000000000000 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000130000000000000000 /* SettingsView.swift */; };
+		B10000140000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000140000000000000000 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10000010000000000000000 /* BangchakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangchakApp.swift; sourceTree = "<group>"; };
+		F10000020000000000000000 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F10000030000000000000000 /* FileWalker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWalker.swift; sourceTree = "<group>"; };
+		F10000040000000000000000 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F10000050000000000000000 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		F10000060000000000000000 /* ScanTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTarget.swift; sourceTree = "<group>"; };
+		F10000070000000000000000 /* SizeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeFormat.swift; sourceTree = "<group>"; };
+		F10000080000000000000000 /* StorageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageEngine.swift; sourceTree = "<group>"; };
+		F10000090000000000000000 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F10000100000000000000000 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10000110000000000000000 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		F10000120000000000000000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F10000130000000000000000 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F10000140000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000150000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10000160000000000000000 /* Bangchak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bangchak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000020000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0000010000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				6A0000020000000000000000 /* Sources */,
+				6A0000070000000000000000 /* Resources */,
+				6A0000080000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0000020000000000000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6A0000030000000000000000 /* App */,
+				6A0000040000000000000000 /* Core */,
+				6A0000050000000000000000 /* UI */,
+				6A0000060000000000000000 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6A0000030000000000000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F10000010000000000000000 /* BangchakApp.swift */,
+				F10000020000000000000000 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6A0000040000000000000000 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F10000030000000000000000 /* FileWalker.swift */,
+				F10000040000000000000000 /* Models.swift */,
+				F10000050000000000000000 /* Preferences.swift */,
+				F10000060000000000000000 /* ScanTarget.swift */,
+				F10000070000000000000000 /* SizeFormat.swift */,
+				F10000080000000000000000 /* StorageEngine.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6A0000050000000000000000 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F10000090000000000000000 /* Components.swift */,
+				F10000100000000000000000 /* Theme.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6A0000060000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F10000110000000000000000 /* BrowseView.swift */,
+				F10000120000000000000000 /* DashboardView.swift */,
+				F10000130000000000000000 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A0000070000000000000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F10000140000000000000000 /* Assets.xcassets */,
+				F10000150000000000000000 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A0000080000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10000160000000000000000 /* Bangchak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10000040000000000000000 /* Bangchak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10000110000000000000000 /* Build configuration list for PBXNativeTarget "Bangchak" */;
+			buildPhases = (
+				C10000010000000000000000 /* Sources */,
+				C10000020000000000000000 /* Frameworks */,
+				C10000030000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bangchak;
+			productName = Bangchak;
+			productReference = F10000160000000000000000 /* Bangchak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10000050000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C10000040000000000000000 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C10000100000000000000000 /* Build configuration list for PBXProject "Bangchak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0000010000000000000000;
+			productRefGroup = 6A0000080000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10000040000000000000000 /* Bangchak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000030000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000140000000000000000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000010000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000010000000000000000 /* BangchakApp.swift in Sources */,
+				B10000020000000000000000 /* RootView.swift in Sources */,
+				B10000030000000000000000 /* FileWalker.swift in Sources */,
+				B10000040000000000000000 /* Models.swift in Sources */,
+				B10000050000000000000000 /* Preferences.swift in Sources */,
+				B10000060000000000000000 /* ScanTarget.swift in Sources */,
+				B10000070000000000000000 /* SizeFormat.swift in Sources */,
+				B10000080000000000000000 /* StorageEngine.swift in Sources */,
+				B10000090000000000000000 /* Components.swift in Sources */,
+				B10000100000000000000000 /* Theme.swift in Sources */,
+				B10000110000000000000000 /* BrowseView.swift in Sources */,
+				B10000120000000000000000 /* DashboardView.swift in Sources */,
+				B10000130000000000000000 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C10000060000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C10000070000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C10000080000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.rlzx.bangchak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C10000090000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.rlzx.bangchak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10000100000000000000000 /* Build configuration list for PBXProject "Bangchak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10000060000000000000000 /* Debug */,
+				C10000070000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10000110000000000000000 /* Build configuration list for PBXNativeTarget "Bangchak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10000080000000000000000 /* Debug */,
+				C10000090000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10000050000000000000000 /* Project object */;
+}

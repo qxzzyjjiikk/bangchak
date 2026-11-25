@@ -1,0 +1,4 @@
+# keep the repository byte-stable across Windows and macOS checkouts
+* text=auto eol=lf
+*.png binary
+*.ipa binary

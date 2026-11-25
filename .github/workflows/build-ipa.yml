@@ -1,0 +1,62 @@
+name: build-ipa
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  ipa:
+    name: Build unsigned IPA
+    runs-on: macos-14
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          if [ -d /Applications/Xcode_15.4.app ]; then
+            sudo xcode-select -s /Applications/Xcode_15.4.app
+          fi
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+
+      - name: Show project
+        run: |
+          ls -la
+          xcodebuild -project Bangchak.xcodeproj -list
+
+      - name: Build (no signing)
+        run: |
+          xcodebuild \
+            -project Bangchak.xcodeproj \
+            -scheme Bangchak \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            build
+
+      - name: Package Payload into .ipa
+        run: |
+          APP="build/Build/Products/Release-iphoneos/Bangchak.app"
+          test -d "$APP" || { echo "no app bundle produced"; find build -name "*.app" -maxdepth 6; exit 1; }
+          mkdir -p build/ipa/Payload
+          cp -R "$APP" build/ipa/Payload/
+          cd build/ipa
+          zip -qry ../Bangchak.ipa Payload
+          cd ../..
+          unzip -l build/Bangchak.ipa | head -12
+          ls -lh build/Bangchak.ipa
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Bangchak-ipa
+          path: build/Bangchak.ipa
+          if-no-files-found: error
+          retention-days: 14
