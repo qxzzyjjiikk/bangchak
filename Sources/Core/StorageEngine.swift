@@ -23,7 +23,7 @@ final class StorageEngine: ObservableObject {
         snapshots.filter { $0.target.purgeable }.reduce(0) { $0 + $1.bytes }
     }
 
-    var snapshot(for target: ScanTarget) -> TargetSnapshot? {
+    func snapshot(for target: ScanTarget) -> TargetSnapshot? {
         snapshots.first { $0.target == target }
     }
 
