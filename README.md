@@ -4,7 +4,7 @@ A small iOS storage utility that manages **its own** container only.
 Built from scratch — no borrowed binary, no activation gate, no media layer.
 
 - Display name: **Bangchak**
-- Bundle id: `xyz.rlzx.bangchak` (signable with any Apple ID)
+- Bundle id: `com.qxzzyjjiikk.bangchak` (signable with any Apple ID)
 - Icon: `Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png` (1024×1024, opaque)
 - Project: `Bangchak.xcodeproj` ships ready to open — no generator required
 
@@ -25,7 +25,7 @@ Built from scratch — no borrowed binary, no activation gate, no media layer.
 
 ## Bundle identifier
 
-`xyz.rlzx.bangchak` — signable with any Apple ID.
+`com.qxzzyjjiikk.bangchak` — signable with any Apple ID.
 
 The id originally specified (`com.apple.mobile.MobileHouseArrest`) sits in Apple's own
 namespace and cannot be provisioned, so device installs failed with

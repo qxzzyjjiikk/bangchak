@@ -1,7 +1,7 @@
 # Bangchak → IPA
 
 โฟลเดอร์ `Bangchak` มี `Bangchak.xcodeproj` พร้อมเปิดแล้ว — ไม่ต้องติดตั้ง generator
-bundle id: `xyz.rlzx.bangchak` (เซ็นด้วย Apple ID ธรรมดาได้)
+bundle id: `com.qxzzyjjiikk.bangchak` (เซ็นด้วย Apple ID ธรรมดาได้)
 
 ---
 

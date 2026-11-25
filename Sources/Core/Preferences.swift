@@ -35,7 +35,7 @@ enum BuildInfo {
     static let name = "Bangchak"
     static let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
     static let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
-    static let bundleID = Bundle.main.bundleIdentifier ?? "xyz.rlzx.bangchak"
+    static let bundleID = Bundle.main.bundleIdentifier ?? "com.qxzzyjjiikk.bangchak"
 
     /// Everything this app deliberately does not contain.
     static let absentFeatures: [AbsentFeature] = [
